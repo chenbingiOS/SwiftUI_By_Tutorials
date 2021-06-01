@@ -9,15 +9,9 @@ import SwiftUI
 
 @main
 struct BullsEyePlusApp: App {
-    
-    let defaults = UserDefaults.standard
-    
     var body: some Scene {
         WindowGroup {
-            ContentView().environmentObject(defaults)
+            ContentView()
         }
     }
 }
-
-
-extension UserDefaults: ObservableObject {}
