@@ -3,16 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7CAD2F3D26687A83009C3012 /* Game in Frameworks */ = {isa = PBXBuildFile; productRef = 7CAD2F3C26687A83009C3012 /* Game */; };
+		7CAD2F4526687A9C009C3012 /* Game in Frameworks */ = {isa = PBXBuildFile; productRef = 7CAD2F4426687A9C009C3012 /* Game */; };
 		7CE4939A2666366700E50209 /* BullsEyePlusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE493992666366700E50209 /* BullsEyePlusApp.swift */; };
 		7CE4939C2666366700E50209 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE4939B2666366700E50209 /* ContentView.swift */; };
 		7CE4939E2666366A00E50209 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CE4939D2666366A00E50209 /* Assets.xcassets */; };
 		7CE493A12666366A00E50209 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CE493A02666366A00E50209 /* Preview Assets.xcassets */; };
-		7CE493AA266636AF00E50209 /* BullsEyeGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE493A9266636AF00E50209 /* BullsEyeGame.swift */; };
-		7CE493AD266636C500E50209 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE493AC266636C500E50209 /* Game.swift */; };
 		7CE494582666433A00E50209 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CE494572666433A00E50209 /* Assets.xcassets */; };
 		7CE4945F2666433A00E50209 /* BullsEyePlusWatch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 7CE4945E2666433A00E50209 /* BullsEyePlusWatch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		7CE494642666433A00E50209 /* BullsEyePlusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE494632666433A00E50209 /* BullsEyePlusApp.swift */; };
@@ -22,11 +22,7 @@
 		7CE4946C2666433A00E50209 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE4946B2666433A00E50209 /* ComplicationController.swift */; };
 		7CE4946E2666433B00E50209 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CE4946D2666433B00E50209 /* Assets.xcassets */; };
 		7CE494712666433B00E50209 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CE494702666433B00E50209 /* Preview Assets.xcassets */; };
-		7CE494762666433B00E50209 /* BullsEyePlusWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 7CE494552666433900E50209 /* BullsEyePlusWatch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		7CE4948A266644BC00E50209 /* SubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE49489266644BC00E50209 /* SubView.swift */; };
-		7CE4948E266644DC00E50209 /* SubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE49489266644BC00E50209 /* SubView.swift */; };
-		7CE494922666450600E50209 /* BullsEyeGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE493A9266636AF00E50209 /* BullsEyeGame.swift */; };
-		7CE494962666450900E50209 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE493AC266636C500E50209 /* Game.swift */; };
+		7CE494762666433B00E50209 /* BullsEyePlusWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 7CE494552666433900E50209 /* BullsEyePlusWatch.app */; platformFilter = ios; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,14 +68,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7CAD2F312668789E009C3012 /* Game */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Game; path = ../../packages/Game; sourceTree = "<group>"; };
+		7CAD2F60266880BB009C3012 /* BullsEyePlus.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BullsEyePlus.entitlements; sourceTree = "<group>"; };
 		7CE493962666366700E50209 /* BullsEyePlus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BullsEyePlus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CE493992666366700E50209 /* BullsEyePlusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullsEyePlusApp.swift; sourceTree = "<group>"; };
 		7CE4939B2666366700E50209 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7CE4939D2666366A00E50209 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7CE493A02666366A00E50209 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7CE493A22666366A00E50209 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7CE493A9266636AF00E50209 /* BullsEyeGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullsEyeGame.swift; sourceTree = "<group>"; };
-		7CE493AC266636C500E50209 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		7CE494552666433900E50209 /* BullsEyePlusWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BullsEyePlusWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CE494572666433A00E50209 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7CE494592666433A00E50209 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -93,7 +89,6 @@
 		7CE494702666433B00E50209 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7CE494722666433B00E50209 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7CE494732666433B00E50209 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
-		7CE49489266644BC00E50209 /* SubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CAD2F3D26687A83009C3012 /* Game in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,12 +104,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CAD2F4526687A9C009C3012 /* Game in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7CAD2F3B26687A83009C3012 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7CE4938D2666366700E50209 = {
 			isa = PBXGroup;
 			children = (
@@ -121,6 +125,7 @@
 				7CE494562666433900E50209 /* BullsEyePlusWatch */,
 				7CE494622666433A00E50209 /* BullsEyePlusWatch Extension */,
 				7CE493972666366700E50209 /* Products */,
+				7CAD2F3B26687A83009C3012 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -137,11 +142,10 @@
 		7CE493982666366700E50209 /* BullsEyePlus */ = {
 			isa = PBXGroup;
 			children = (
+				7CAD2F60266880BB009C3012 /* BullsEyePlus.entitlements */,
+				7CAD2F312668789E009C3012 /* Game */,
 				7CE493992666366700E50209 /* BullsEyePlusApp.swift */,
 				7CE4939B2666366700E50209 /* ContentView.swift */,
-				7CE49489266644BC00E50209 /* SubView.swift */,
-				7CE493A9266636AF00E50209 /* BullsEyeGame.swift */,
-				7CE493AC266636C500E50209 /* Game.swift */,
 				7CE4939D2666366A00E50209 /* Assets.xcassets */,
 				7CE493A22666366A00E50209 /* Info.plist */,
 				7CE4939F2666366A00E50209 /* Preview Content */,
@@ -208,6 +212,9 @@
 				7CE494752666433B00E50209 /* PBXTargetDependency */,
 			);
 			name = BullsEyePlus;
+			packageProductDependencies = (
+				7CAD2F3C26687A83009C3012 /* Game */,
+			);
 			productName = BullsEyePlus;
 			productReference = 7CE493962666366700E50209 /* BullsEyePlus.app */;
 			productType = "com.apple.product-type.application";
@@ -242,6 +249,9 @@
 			dependencies = (
 			);
 			name = "BullsEyePlusWatch Extension";
+			packageProductDependencies = (
+				7CAD2F4426687A9C009C3012 /* Game */,
+			);
 			productName = "BullsEyePlusWatch Extension";
 			productReference = 7CE4945E2666433A00E50209 /* BullsEyePlusWatch Extension.appex */;
 			productType = "com.apple.product-type.watchkit2-extension";
@@ -322,9 +332,6 @@
 			files = (
 				7CE4939C2666366700E50209 /* ContentView.swift in Sources */,
 				7CE4939A2666366700E50209 /* BullsEyePlusApp.swift in Sources */,
-				7CE493AA266636AF00E50209 /* BullsEyeGame.swift in Sources */,
-				7CE493AD266636C500E50209 /* Game.swift in Sources */,
-				7CE4948A266644BC00E50209 /* SubView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,13 +340,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7CE494682666433A00E50209 /* NotificationController.swift in Sources */,
-				7CE494922666450600E50209 /* BullsEyeGame.swift in Sources */,
 				7CE494662666433A00E50209 /* ContentView.swift in Sources */,
 				7CE4946C2666433A00E50209 /* ComplicationController.swift in Sources */,
-				7CE4948E266644DC00E50209 /* SubView.swift in Sources */,
 				7CE494642666433A00E50209 /* BullsEyePlusApp.swift in Sources */,
 				7CE4946A2666433A00E50209 /* NotificationView.swift in Sources */,
-				7CE494962666450900E50209 /* Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,6 +357,7 @@
 		};
 		7CE494752666433B00E50209 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
+			platformFilter = ios;
 			target = 7CE494542666433900E50209 /* BullsEyePlusWatch */;
 			targetProxy = 7CE494742666433B00E50209 /* PBXContainerItemProxy */;
 		};
@@ -480,6 +485,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BullsEyePlus/BullsEyePlus.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"BullsEyePlus/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
@@ -491,6 +498,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = chenbing.BullsEyePlus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -501,6 +509,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BullsEyePlus/BullsEyePlus.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"BullsEyePlus/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
@@ -512,6 +522,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = chenbing.BullsEyePlus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -560,7 +571,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"BullsEyePlusWatch Extension/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "BullsEyePlusWatch\\ Extension/Preview\\ Content";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "BullsEyePlusWatch Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -583,7 +594,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"BullsEyePlusWatch Extension/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "BullsEyePlusWatch\\ Extension/Preview\\ Content";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "BullsEyePlusWatch Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -641,6 +652,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7CAD2F3C26687A83009C3012 /* Game */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Game;
+		};
+		7CAD2F4426687A9C009C3012 /* Game */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Game;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7CE4938E2666366700E50209 /* Project object */;
 }

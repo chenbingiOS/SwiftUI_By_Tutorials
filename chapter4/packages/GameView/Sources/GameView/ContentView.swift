@@ -1,17 +1,30 @@
 //
-//  SubView.swift
+//  ContentView.swift
 //  BullsEyePlus
 //
 //  Created by mtAdmin on 2021/6/1.
 //
 
 import SwiftUI
+import Game
 
-struct SubView: View {
+struct ContentView: View {
+    
+    @ObservedObject var game = BullsEyeGame()
+    @State var currentValue = 50.0
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Text("Put the Bull's Eye as close as you can to: \(game.targetValue)")
+            SliderView(game: game, currentValue: $currentValue)
+            
+            ButtonView(game: game, currentValue: $currentValue)
+            
+            TextsView(game: game)
+        }
     }
 }
+
 
 struct SliderView: View {
     @ObservedObject var game: BullsEyeGame
@@ -69,8 +82,9 @@ struct TextsView: View {
     }
 }
 
-struct SubView_Previews: PreviewProvider {
+
+struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        SubView()
+        ContentView()
     }
 }
