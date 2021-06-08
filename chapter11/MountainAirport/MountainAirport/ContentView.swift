@@ -21,14 +21,25 @@ struct ContentView: View {
                         .opacity(0.1)
                         .rotationEffect(.degrees(-90))
                     
-                    FlightBoard(boardName: "Arrivals")
-                    FlightBoard(boardName: "Departures")
-                    
+                    VStack(alignment: .leading, spacing: 5) {
+                        NavigationLink(
+                            destination: FlightBoard(boardName: "Arrivals", flightData: FlightInformation.generateFlights()),
+                            label: {
+                                Text("Arrivals")
+                            })
+                        NavigationLink(
+                            destination: FlightBoard(boardName: "Departures", flightData: FlightInformation.generateFlights()),
+                            label: {
+                                Text("Departures")
+                            })
+                    }
                     Spacer()
                 }
+                .font(.title)
+                .padding(20)
             }
+            .navigationBarTitle(Text("Mountain Airport"))
         }
-        .navigationBarTitle(Text("Mountain Airport"))
     }
 }
 
