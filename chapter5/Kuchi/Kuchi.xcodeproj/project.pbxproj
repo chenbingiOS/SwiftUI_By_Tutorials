@@ -7,14 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C2FFCE82669C39500893509 /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2FFCE72669C39500893509 /* ScoreView.swift */; };
+		7C2FFCED2669C9B900893509 /* ChallengeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2FFCEC2669C9B900893509 /* ChallengeView.swift */; };
+		7C9802922669F38600C4C330 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9802912669F38600C4C330 /* Profile.swift */; };
+		7C9802952669F5F100C4C330 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9802942669F5F100C4C330 /* UserManager.swift */; };
+		7C9802982669F62F00C4C330 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9802972669F62F00C4C330 /* Settings.swift */; };
+		7C98029C2669F86C00C4C330 /* KeyboardFollower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C98029B2669F86C00C4C330 /* KeyboardFollower.swift */; };
+		7C9802A9266A03CC00C4C330 /* BorderedViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9802A8266A03CC00C4C330 /* BorderedViewModifier.swift */; };
 		7CAD2F792668BC73009C3012 /* KuchiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAD2F782668BC73009C3012 /* KuchiApp.swift */; };
 		7CAD2F7B2668BC73009C3012 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAD2F7A2668BC73009C3012 /* ContentView.swift */; };
 		7CAD2F7D2668BC75009C3012 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CAD2F7C2668BC75009C3012 /* Assets.xcassets */; };
 		7CAD2F802668BC75009C3012 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CAD2F7F2668BC75009C3012 /* Preview Assets.xcassets */; };
 		7CAD2F892668BCC2009C3012 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAD2F882668BCC2009C3012 /* WelcomeView.swift */; };
+		7CAD2F8C2668CA6E009C3012 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAD2F8B2668CA6E009C3012 /* RegisterView.swift */; };
+		7CAD2F8F2668D16F009C3012 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAD2F8E2668D16F009C3012 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7C2FFCE72669C39500893509 /* ScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreView.swift; sourceTree = "<group>"; };
+		7C2FFCEC2669C9B900893509 /* ChallengeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeView.swift; sourceTree = "<group>"; };
+		7C9802912669F38600C4C330 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		7C9802942669F5F100C4C330 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		7C9802972669F62F00C4C330 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		7C98029B2669F86C00C4C330 /* KeyboardFollower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardFollower.swift; sourceTree = "<group>"; };
+		7C9802A8266A03CC00C4C330 /* BorderedViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderedViewModifier.swift; sourceTree = "<group>"; };
 		7CAD2F752668BC73009C3012 /* Kuchi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kuchi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CAD2F782668BC73009C3012 /* KuchiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KuchiApp.swift; sourceTree = "<group>"; };
 		7CAD2F7A2668BC73009C3012 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -22,6 +38,8 @@
 		7CAD2F7F2668BC75009C3012 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7CAD2F812668BC75009C3012 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7CAD2F882668BCC2009C3012 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		7CAD2F8B2668CA6E009C3012 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		7CAD2F8E2668D16F009C3012 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +53,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7C9802902669F36D00C4C330 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				7C9802912669F38600C4C330 /* Profile.swift */,
+				7C9802972669F62F00C4C330 /* Settings.swift */,
+				7C9802942669F5F100C4C330 /* UserManager.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		7C98029A2669F85C00C4C330 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				7C98029B2669F86C00C4C330 /* KeyboardFollower.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		7C98029F2669FA0E00C4C330 /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				7CAD2F882668BCC2009C3012 /* WelcomeView.swift */,
+				7CAD2F8B2668CA6E009C3012 /* RegisterView.swift */,
+				7C9802A12669FA2000C4C330 /* Components */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		7C9802A12669FA2000C4C330 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				7CAD2F8E2668D16F009C3012 /* HomeView.swift */,
+				7C2FFCE72669C39500893509 /* ScoreView.swift */,
+				7C2FFCEC2669C9B900893509 /* ChallengeView.swift */,
+				7C9802A8266A03CC00C4C330 /* BorderedViewModifier.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		7CAD2F6C2668BC73009C3012 = {
 			isa = PBXGroup;
 			children = (
@@ -55,7 +112,9 @@
 			isa = PBXGroup;
 			children = (
 				7CAD2F782668BC73009C3012 /* KuchiApp.swift */,
-				7CAD2F882668BCC2009C3012 /* WelcomeView.swift */,
+				7C98029A2669F85C00C4C330 /* Utils */,
+				7C9802902669F36D00C4C330 /* Profile */,
+				7C98029F2669FA0E00C4C330 /* Welcome */,
 				7CAD2F7A2668BC73009C3012 /* ContentView.swift */,
 				7CAD2F7C2668BC75009C3012 /* Assets.xcassets */,
 				7CAD2F812668BC75009C3012 /* Info.plist */,
@@ -141,9 +200,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C9802952669F5F100C4C330 /* UserManager.swift in Sources */,
+				7C98029C2669F86C00C4C330 /* KeyboardFollower.swift in Sources */,
+				7C9802A9266A03CC00C4C330 /* BorderedViewModifier.swift in Sources */,
 				7CAD2F7B2668BC73009C3012 /* ContentView.swift in Sources */,
+				7C9802922669F38600C4C330 /* Profile.swift in Sources */,
+				7CAD2F8C2668CA6E009C3012 /* RegisterView.swift in Sources */,
+				7C9802982669F62F00C4C330 /* Settings.swift in Sources */,
 				7CAD2F892668BCC2009C3012 /* WelcomeView.swift in Sources */,
+				7C2FFCED2669C9B900893509 /* ChallengeView.swift in Sources */,
+				7CAD2F8F2668D16F009C3012 /* HomeView.swift in Sources */,
 				7CAD2F792668BC73009C3012 /* KuchiApp.swift in Sources */,
+				7C2FFCE82669C39500893509 /* ScoreView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,8 +339,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_ASSET_PATHS = "\"Kuchi/Preview Content\"";
+				DEVELOPMENT_TEAM = SQHXNYMSWW;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Kuchi/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -282,6 +352,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = chenbing.Kuchi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "match Development *";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -292,8 +363,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_ASSET_PATHS = "\"Kuchi/Preview Content\"";
+				DEVELOPMENT_TEAM = SQHXNYMSWW;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Kuchi/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -303,6 +376,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = chenbing.Kuchi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "match Development *";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
